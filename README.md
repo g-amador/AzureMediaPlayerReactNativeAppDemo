@@ -1,5 +1,8 @@
 # AzureMediaPlayerReactNativeAppDemo
 
+
+**Notes:**
+
 https://www.javatpoint.com/react-native-environment-setup
 
 https://www.javatpoint.com/react-native-first-app-hello-world
