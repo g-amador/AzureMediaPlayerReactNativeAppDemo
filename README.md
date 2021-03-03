@@ -11,15 +11,24 @@
 A simple demo to illustrate how to incorporate Azure Media Player (AMP) into a react-native app using WebView.
 
 **Notes:**
+
 **ReactJS and react-native are not officially supported by Microsoft Azure Media Services (AMS) SDKs or AMP.** 
+
 **This demo is not in any way officially supported by Microsoft!**
 
+
 **Relevant URLs:**
+
 AMP documentation
+
 https://docs.microsoft.com/en-us/azure/media-services/azure-media-player/azure-media-player-overview
+
 AMP demo page
+
 https://ampdemo.azureedge.net/azuremediaplayer.html
+
 AMP embedded player full screen demo page
+
 https://ampdemo.azureedge.net/azuremediaplayer_embed.html
 
 
@@ -34,16 +43,17 @@ Follow the walk-through available at
 https://www.javatpoint.com/react-native-environment-setup
 
 **Note:** Android Studio has changed slightly it's interface over time and AVD manager is now on a distinct menu (see Figs. bellow).
+
 | Fig. 1 | Fig. 2 |
 |:---:|:---:|
-| [![AndroidStudioAVDmanager](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/1.png)](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/1.png)  
-| [![AndroidStudioAVDmanager](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/2.png)](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/2.png) | 
+| [![AndroidStudioAVDmanager](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/1.png)](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/1.png) | [![AndroidStudioAVDmanager](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/2.png)](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/2.png) | 
 
 
 ###### Step 2: Setup the App demo
 
-**You can either use this app as is (as long as I have my Azure Portal account), or you can set it up on your own and copy the App.js code.
-This is a walk-through on how to do it on your own.**
+**You can either use this app as is (as long as I have my Azure Portal account), or you can set it up on your own and copy the App.js code.**
+
+**This is a walk-through on how to do it on your own.**
 
 1-Open Windows PowerShell.
 2-Create your project directory (I did it in my C:\users\ACCOUNT_USER_NAME\source\repos\)
@@ -62,12 +72,15 @@ react-native run-android
 
 **Note:** the WebView was replaced from the built-in core react-native, and placed in react-native-webview library.
 
+
 **Relevant URLs.**
+
 https://www.javatpoint.com/react-native-first-app-hello-world
+
 https://www.javatpoint.com/react-native-webview
 
 
-###### Step 3: Modify the streaming URL to one of in your 
+###### Step 3: Modify the streaming URL in App.js
 
 1-Copy the *.ism/manifest or *.mp4 URL of your asset provided via file/live streaming and/or progressive download in Azure Portal.
 2-Modify the App.js source URL (copied from Azure Portal) in the AMP demo page and paste it into the end of the embed demo player AMP page, e.g.:
@@ -77,13 +90,18 @@ source = {{ uri:'https://ampdemo.azureedge.net/azuremediaplayer_embed.html?url=h
 
 
 **Relevant URLs.**
+
 AMS QuickStart
+
 https://docs.microsoft.com/en-us/azure/media-services/latest/manage-assets-quickstart
+
 AMP demo page
+
 https://ampdemo.azureedge.net/azuremediaplayer.html
+
 AMP embedded player full screen demo page
+
 https://ampdemo.azureedge.net/azuremediaplayer_embed.html
-and Update Player.
 
 
 [Back to Table of contents](#toc)
@@ -97,5 +115,6 @@ Please inform me if you either extend this demo, create more templates/demos/gam
 If you have any questions, feel free to e-mail me at [gmail](mailto://g.n.p.amador@gmail.com) and ask away.
 
 Good luck!
+
 
 [Back to Table of contents](#toc)
