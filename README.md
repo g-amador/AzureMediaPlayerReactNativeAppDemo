@@ -17,11 +17,11 @@ A simple demo to illustrate how to incorporate Azure Media Player (AMP) into a r
 
 **Relevant URLs:**\
 AMP documentation\
-https://docs.microsoft.com/en-us/azure/media-services/azure-media-player/azure-media-player-overview\
+https://docs.microsoft.com/en-us/azure/media-services/azure-media-player/azure-media-player-overview \
 AMP demo page\
-https://ampdemo.azureedge.net/azuremediaplayer.html\
+https://ampdemo.azureedge.net/azuremediaplayer.html \
 AMP embedded player full screen demo page\
-https://ampdemo.azureedge.net/azuremediaplayer_embed.html\
+https://ampdemo.azureedge.net/azuremediaplayer_embed.html \
 
 
 
@@ -44,73 +44,48 @@ https://www.javatpoint.com/react-native-environment-setup
 
 ###### Step 2: Setup the App demo
 
-**You can either use this app as is (as long as I have my Azure Portal account), or you can set it up on your own and copy the App.js code.**
-
+**You can either use this app as is (as long as I have my Azure Portal account), or you can set it up on your own and copy the App.js code.**\
 **This is a walk-through on how to do it on your own.**
 
 
-1-Open Windows PowerShell.
-
-2-Create your project directory (I did it in my C:\users\ACCOUNT_USER_NAME\source\repos\)
-
-cd C:\users\ACCOUNT_USER_NAME\source\repos\
-
-mkdir ReactNative 
-
-3-Create your app
-
-cd ReactNative
-
-react-native init AzureMediaPlayerReactNativeAppDemo
-
-cd AzureMediaPlayerReactNativeAppDemo
-
-4-Install react-native-webview 
-
-npm i react-native-webview
-
-5-Replace App.js by the one provided in this project.
-
-6-Run your app with Android Studio Emulator running on Android
-
+1-Open Windows PowerShell.\
+2-Create your project directory (I did it in my C:\users\ACCOUNT_USER_NAME\source\repos\)\
+cd C:\users\ACCOUNT_USER_NAME\source\repos\ \
+mkdir ReactNative\
+3-Create your app\
+cd ReactNative\
+react-native init AzureMediaPlayerReactNativeAppDemo\
+cd AzureMediaPlayerReactNativeAppDemo\
+4-Install react-native-webview\
+npm i react-native-webview\
+5-Replace App.js by the one provided in this project.\
+6-Run your app with Android Studio Emulator running on Android\
 react-native run-android
 
 
 **Note:** the WebView was replaced from the built-in core react-native, and placed in react-native-webview library.
 
 
-**Relevant URLs.**
-
-https://www.javatpoint.com/react-native-first-app-hello-world
-
-https://www.javatpoint.com/react-native-webview
+**Relevant URLs.**\
+https://www.javatpoint.com/react-native-first-app-hello-world \
+https://www.javatpoint.com/react-native-webview \
 
 
 ###### Step 3: Modify the streaming URL in App.js
 
-1-Copy the *.ism/manifest or *.mp4 URL of your asset provided via file/live streaming and/or progressive download in Azure Portal.
-
-2-Modify the App.js source URL (copied from Azure Portal) in the AMP demo page and paste it into the end of the embed demo player AMP page, e.g.:
-
-https%3A%2F%2Fgamadortemp-euwe.streaming.media.azure.net%2F%2Fcfe2da93-a2d2-46a6-88df-748426d05fea%2FSample%20Video%20File%20For%20Testing.mp4 (Azure Portal URL)
-
-https://aka.ms/azuremediaplayer?url=https%3A%2F%2Fgamadortemp-euwe.streaming.media.azure.net%2F%2Fcfe2da93-a2d2-46a6-88df-748426d05fea%2FSample%20Video%20File%20For%20Testing.mp4 (AMP demo page after copying and updating URL)
-
+1-Copy the *.ism/manifest or *.mp4 URL of your asset provided via file/live streaming and/or progressive download in Azure Portal.\
+2-Modify the App.js source URL (copied from Azure Portal) in the AMP demo page and paste it into the end of the embed demo player AMP page, e.g.:\
+https%3A%2F%2Fgamadortemp-euwe.streaming.media.azure.net%2F%2Fcfe2da93-a2d2-46a6-88df-748426d05fea%2FSample%20Video%20File%20For%20Testing.mp4 (Azure Portal URL)\
+https://aka.ms/azuremediaplayer?url=https%3A%2F%2Fgamadortemp-euwe.streaming.media.azure.net%2F%2Fcfe2da93-a2d2-46a6-88df-748426d05fea%2FSample%20Video%20File%20For%20Testing.mp4 (AMP demo page after copying and updating URL)\
 source = {{ uri:'https://ampdemo.azureedge.net/azuremediaplayer_embed.html?url=https%3A%2F%2Fgamadortemp-euwe.streaming.media.azure.net%2F%2Fcfe2da93-a2d2-46a6-88df-748426d05fea%2FSample%20Video%20File%20For%20Testing.mp4' }} (App.js)
 
 
-**Relevant URLs.**
-
-AMS QuickStart
-
-https://docs.microsoft.com/en-us/azure/media-services/latest/manage-assets-quickstart
-
-AMP demo page
-
-https://ampdemo.azureedge.net/azuremediaplayer.html
-
-AMP embedded player full screen demo page
-
+**Relevant URLs.**\
+AMS QuickStart\
+https://docs.microsoft.com/en-us/azure/media-services/latest/manage-assets-quickstart \
+AMP demo page\
+https://ampdemo.azureedge.net/azuremediaplayer.html \
+AMP embedded player full screen demo page\
 https://ampdemo.azureedge.net/azuremediaplayer_embed.html
 
 
