@@ -10,11 +10,13 @@
 
 A simple demo to illustrate how to incorporate Azure Media Player (AMP) into a react-native app using WebView.
 
+
+
 **Notes:**
 
 **ReactJS and react-native are not officially supported by Microsoft Azure Media Services (AMS) SDKs or AMP.** 
-
 **This demo is not in any way officially supported by Microsoft!**
+
 
 
 **Relevant URLs:**
@@ -32,6 +34,7 @@ AMP embedded player full screen demo page
 https://ampdemo.azureedge.net/azuremediaplayer_embed.html
 
 
+
 [Back to Table of contents](#toc)
 
 
@@ -42,7 +45,7 @@ https://ampdemo.azureedge.net/azuremediaplayer_embed.html
 Follow the walk-through available at
 https://www.javatpoint.com/react-native-environment-setup
 
-**Note:** Android Studio has changed slightly it's interface over time and AVD manager is now on a distinct menu (see Figs. bellow).
+**Note:** Android Studio interface changed over time and AVD manager is now on a distinct menu (see Figs. bellow).
 
 | Fig. 1 | Fig. 2 |
 |:---:|:---:|
@@ -54,6 +57,7 @@ https://www.javatpoint.com/react-native-environment-setup
 **You can either use this app as is (as long as I have my Azure Portal account), or you can set it up on your own and copy the App.js code.**
 
 **This is a walk-through on how to do it on your own.**
+
 
 1-Open Windows PowerShell.
 2-Create your project directory (I did it in my C:\users\ACCOUNT_USER_NAME\source\repos\)
