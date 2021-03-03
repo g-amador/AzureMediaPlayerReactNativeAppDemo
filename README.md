@@ -6,7 +6,7 @@
 	* [Contact](#contact)
 
 
-# <a name="AMPrnad"Azure Media Player (AMP) react-native App Demo
+# <a name="AMPrnad">Azure Media Player (AMP) react-native App Demo
 
 A simple demo to illustrate how to incorporate Azure Media Player (AMP) into a react-native app using WebView.
 
@@ -36,7 +36,7 @@ https://www.javatpoint.com/react-native-environment-setup
 **Note:** Android Studio has changed slightly it's interface over time and AVD manager is now on a distinct menu (see Figs. bellow).
 | Fig. 1 | Fig. 2 |
 |:---:|:---:|
-| [![AndroidStudioAVDmanager](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/1.png)](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/1.png) | 
+| [![AndroidStudioAVDmanager](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/1.png)](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/1.png)  
 | [![AndroidStudioAVDmanager](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/2.png)](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/2.png) | 
 
 
@@ -84,12 +84,6 @@ https://ampdemo.azureedge.net/azuremediaplayer.html
 AMP embedded player full screen demo page
 https://ampdemo.azureedge.net/azuremediaplayer_embed.html
 and Update Player.
-
-
-| Fig. 1 | Fig. 2 |
-|:---:|:---:|
-| [![AndroidStudioAVDmanager](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/1.png)](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/1.png) | 
-| [![AndroidStudioAVDmanager](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/2.png)](https://raw.githubusercontent.com/g-amador/AzureMediaPlayerReactNativeAppDemo/master/img/2.png) | 
 
 
 [Back to Table of contents](#toc)
