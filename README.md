@@ -21,7 +21,7 @@ https://docs.microsoft.com/en-us/azure/media-services/azure-media-player/azure-m
 AMP demo page\
 https://ampdemo.azureedge.net/azuremediaplayer.html \
 AMP embedded player full screen demo page\
-https://ampdemo.azureedge.net/azuremediaplayer_embed.html \
+https://ampdemo.azureedge.net/azuremediaplayer_embed.html 
 
 
 
@@ -68,7 +68,7 @@ react-native run-android
 
 **Relevant URLs.**\
 https://www.javatpoint.com/react-native-first-app-hello-world \
-https://www.javatpoint.com/react-native-webview \
+https://www.javatpoint.com/react-native-webview 
 
 
 ###### Step 3: Modify the streaming URL in App.js
@@ -94,7 +94,7 @@ https://ampdemo.azureedge.net/azuremediaplayer_embed.html
 
 ## <a name="contact">Contact
 
-You are free to use and modify this demo as you see fit.
+You are free to use and modify this demo as you see fit.\
 Please inform me if you either extend this demo, create more templates/demos/games for/with JOT, or port it to another programming language.
 
 If you have any questions, feel free to e-mail me at [gmail](mailto://g.n.p.amador@gmail.com) and ask away.
