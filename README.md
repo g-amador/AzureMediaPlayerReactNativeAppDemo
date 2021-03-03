@@ -11,12 +11,8 @@
 A simple demo to illustrate how to incorporate Azure Media Player (AMP) into a react-native app using WebView.
 
 
-
-**Notes:**
-
 **ReactJS and react-native are not officially supported by Microsoft Azure Media Services (AMS) SDKs or AMP.** 
 **This demo is not in any way officially supported by Microsoft!**
-
 
 
 **Relevant URLs:**
@@ -60,17 +56,29 @@ https://www.javatpoint.com/react-native-environment-setup
 
 
 1-Open Windows PowerShell.
+
 2-Create your project directory (I did it in my C:\users\ACCOUNT_USER_NAME\source\repos\)
+
 cd C:\users\ACCOUNT_USER_NAME\source\repos\
+
 mkdir ReactNative 
+
 3-Create your app
+
 cd ReactNative
+
 react-native init AzureMediaPlayerReactNativeAppDemo
+
 cd AzureMediaPlayerReactNativeAppDemo
+
 4-Install react-native-webview 
+
 npm i react-native-webview
+
 5-Replace App.js by the one provided in this project.
+
 6-Run your app with Android Studio Emulator running on Android
+
 react-native run-android
 
 
@@ -87,9 +95,13 @@ https://www.javatpoint.com/react-native-webview
 ###### Step 3: Modify the streaming URL in App.js
 
 1-Copy the *.ism/manifest or *.mp4 URL of your asset provided via file/live streaming and/or progressive download in Azure Portal.
+
 2-Modify the App.js source URL (copied from Azure Portal) in the AMP demo page and paste it into the end of the embed demo player AMP page, e.g.:
+
 https%3A%2F%2Fgamadortemp-euwe.streaming.media.azure.net%2F%2Fcfe2da93-a2d2-46a6-88df-748426d05fea%2FSample%20Video%20File%20For%20Testing.mp4 (Azure Portal URL)
+
 https://aka.ms/azuremediaplayer?url=https%3A%2F%2Fgamadortemp-euwe.streaming.media.azure.net%2F%2Fcfe2da93-a2d2-46a6-88df-748426d05fea%2FSample%20Video%20File%20For%20Testing.mp4 (AMP demo page after copying and updating URL)
+
 source = {{ uri:'https://ampdemo.azureedge.net/azuremediaplayer_embed.html?url=https%3A%2F%2Fgamadortemp-euwe.streaming.media.azure.net%2F%2Fcfe2da93-a2d2-46a6-88df-748426d05fea%2FSample%20Video%20File%20For%20Testing.mp4' }} (App.js)
 
 
