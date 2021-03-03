@@ -15,19 +15,13 @@ A simple demo to illustrate how to incorporate Azure Media Player (AMP) into a r
 **This demo is not in any way officially supported by Microsoft!**
 
 
-**Relevant URLs:**
-
-AMP documentation
-
-https://docs.microsoft.com/en-us/azure/media-services/azure-media-player/azure-media-player-overview
-
-AMP demo page
-
-https://ampdemo.azureedge.net/azuremediaplayer.html
-
-AMP embedded player full screen demo page
-
-https://ampdemo.azureedge.net/azuremediaplayer_embed.html
+**Relevant URLs:**\
+AMP documentation\
+https://docs.microsoft.com/en-us/azure/media-services/azure-media-player/azure-media-player-overview\
+AMP demo page\
+https://ampdemo.azureedge.net/azuremediaplayer.html\
+AMP embedded player full screen demo page\
+https://ampdemo.azureedge.net/azuremediaplayer_embed.html\
 
 
 
