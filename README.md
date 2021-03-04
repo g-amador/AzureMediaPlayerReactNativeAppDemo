@@ -94,8 +94,7 @@ https://ampdemo.azureedge.net/azuremediaplayer_embed.html
 
 ## <a name="contact">Contact
 
-You are free to use and modify this demo as you see fit.\
-Please inform me if you either use or extend this demo.
+You are free to use and modify this demo as you see fit. Please inform me if you either use or extend this demo.
 
 If you have any questions, feel free to e-mail me at [gmail](mailto://g.n.p.amador@gmail.com) and ask away.
 
