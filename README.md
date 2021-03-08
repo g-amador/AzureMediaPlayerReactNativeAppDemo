@@ -81,7 +81,7 @@ source = {{ uri:'https://ampdemo.azureedge.net/azuremediaplayer_embed.html?url=h
 
 Option 2: Instead use you're own page (tested only for Android).\
 1-Modify you're App.js file to point to an index.html, located in the Assets folder of Android:\
-source={{uri:'file:///android_asset/index.html'}} \
+source={{uri:'file:///android_asset/index.html'}} (App.js)\
 2-Place your index.html in AzureMediaPlayerReactNativeAppDemo\android\app\src\main\assets. (Already done in the demo)
 
 
@@ -92,7 +92,7 @@ AMP demo page\
 https://ampdemo.azureedge.net/azuremediaplayer.html \
 AMP embedded player full screen demo page\
 https://ampdemo.azureedge.net/azuremediaplayer_embed.html
-React Native WebView Load Local HTML File From Assets Folder
+React Native WebView Load Local HTML File From Assets Folder\
 https://reactnativecode.com/react-native-webview-load-local-html-file/
 
 
