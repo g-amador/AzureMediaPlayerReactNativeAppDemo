@@ -91,7 +91,7 @@ https://docs.microsoft.com/en-us/azure/media-services/latest/manage-assets-quick
 AMP demo page\
 https://ampdemo.azureedge.net/azuremediaplayer.html \
 AMP embedded player full screen demo page\
-https://ampdemo.azureedge.net/azuremediaplayer_embed.html
+https://ampdemo.azureedge.net/azuremediaplayer_embed.html \
 React Native WebView Load Local HTML File From Assets Folder\
 https://reactnativecode.com/react-native-webview-load-local-html-file/
 
