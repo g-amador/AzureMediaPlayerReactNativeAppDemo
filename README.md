@@ -50,26 +50,26 @@ https://www.javatpoint.com/react-native-environment-setup
 
 1. Open Windows PowerShell.
 
-2. Create your project directory, e.g., `C:\users\%USERNSME%\source\repos\`\
+2. Create your project directory, e.g., `C:\users\%USERNSME%\source\repos\`
 ```
 cd C:\users\%USERNSME%\source\repos\
-mkdir ReactNative\
+mkdir ReactNative
 ```
 
-3. Create your app\
+3. Create your app
 ```
 cd ReactNative
 react-native init AzureMediaPlayerReactNativeAppDemo
 cd AzureMediaPlayerReactNativeAppDemo
 ```
 
-4. Install react-native-webview\
+4. Install react-native-webview
 ```
 npm i react-native-webview
 ```
 
-5. Replace App.js by the one provided in this project.\
-6. Run your app with Android Studio Emulator running on Android\
+5. Replace App.js by the one provided in this project.
+6. Run your app with Android Studio Emulator running on Android
 ```
 react-native run-android
 ```
@@ -85,17 +85,17 @@ https://www.javatpoint.com/react-native-webview
 
 ###### Step 3: Modify the streaming URL in App.js
 
-Option 1: Modify to use AMP embed demo page:\
-1. Copy the *.ism/manifest or *.mp4 URL of your asset provided via file/live streaming and/or progressive download in Azure Portal.\
-2. Modify the App.js source URL (copied from Azure Portal) in the AMP demo page and paste it into the end of the embed demo player AMP page, e.g.:\
+**Option 1:** Modify to use AMP embed demo page:
+1. Copy the *.ism/manifest or *.mp4 URL of your asset provided via file/live streaming and/or progressive download in Azure Portal.
+2. Modify the App.js source URL (copied from Azure Portal) in the AMP demo page and paste it into the end of the embed demo player AMP page, e.g.:
 ```
 hhttps://ampdemo.azureedge.net/azuremediaplayer_embed.html?url=%2F%2Famssamples.streaming.mediaservices.windows.net%2F3b970ae0-39d5-44bd-b3a3-3136143d6435%2FAzureMediaServicesPromo.ism%2Fmanifest (AMP demo page after copying and updating URL)\
 source = {{ uri:'https://ampdemo.azureedge.net/azuremediaplayer_embed.html?url=https%3A%2F%2Fgamadortemp-euwe.streaming.media.azure.net%2F%2Fcfe2da93-a2d2-46a6-88df-748426d05fea%2FSample%20Video%20File%20For%20Testing.mp4' }} (App.js)
 ```
 
-Option 2: Instead use you're own page (tested only for Android).\
-1. Modify you're App.js file to point to an index.html, located in the Assets folder of Android:\
-source={{uri:'file:///android_asset/index.html'}} (App.js)\
+**Option 2:** Instead use you're own page (tested only for Android).
+1. Modify you're App.js file to point to an index.html, located in the Assets folder of Android:s
+source={{uri:'file:///android_asset/index.html'}} (App.js)
 2. Place your index.html in AzureMediaPlayerReactNativeAppDemo\android\app\src\main\assets. (Already done in the demo)
 
 
